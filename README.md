@@ -1,6 +1,6 @@
 # Accessible Checkbox
 
-![Alternate text](https://github.com/iAty/accessible-checkbox/img/accessibility-pattern.jpg)
+![Alternate text](https://github.com/iAty/accessible-checkbox/blob/master/img/accessibility-pattern.jpg)
 
 First, not all your forms are necessarily going to be impacted by the GDPR. If you’re not collecting personally identifiable information on users, your form’s not impacted. 
 However… Are you asking for a Name? Email? Address? The GDPR impacts that form.
