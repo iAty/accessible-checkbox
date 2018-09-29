@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Accessible Checkbox Cookie Consent
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+
+  <link rel="stylesheet" href="css/demo.css">
+  <script>
+    window.onload = function() {
+        var CookiePolicyConsent = document.getElementById("CookiePolicyConsent");
+        CookiePolicyConsent.onclick = function() {
+            var ThisIsChecked = (this.getAttribute("aria-checked") === "true");
+            this.setAttribute("aria-checked", !ThisIsChecked);
+        };
+    }
+</script>
+
+</head>
+
+<body>
+  <a href="#main" class="at-only">
+    Skip to main content
+  </a>
+
+  <header role="banner">
+    <h1 class="text-align-center">Accessible Checkbox Cookie Consent</h1>
+  </header>
+
+  <main id="main" role="main">
+
+    <form class="form-md" role="form">
+
+      <div class="form-group">
+        <input id="form_name1" class="form-control" type="text" placeholder="Full name" required>
+        <label for="form_name1">Full name</label>
+      </div>
+
+      <div class="form-group">
+        <input id="form_name2" class="form-control" type="text" placeholder="User name" required>
+        <label for="form_name2">User name</label>
+      </div>
+
+      <div class="form-group">
+        <label class="material-checkbox">
+          <input type="checkbox" id="CookiePolicyConsent" role="checkbox" aria-checked="false" tabindex="0">
+          <span>I agree to the Privacy Policy</span>
+        </label>
+      </div>
+
+    </form>
+
+  </main>
+
+  <footer role="contentinfo">
+
+  </footer>
+
+</body>
+
+</html>
