@@ -20,7 +20,7 @@ $ git clone https://github.com/iAty/accessible-checkbox.git
 
 Or [download a zip of the repository](https://github.com/iAty/accessible-checkbox.git).
 
-### Native JavaScript
+### JavaScript
 
 The :  
 
